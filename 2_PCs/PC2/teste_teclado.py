@@ -28,7 +28,7 @@ try:
                                        	  while(GPIO.input(ROW[i] ==0)):
                                          	  pass
                            
-                           GPIO.output(COL[j],1)
+        GPIO.output(COL[j],1)
         
 except:KeyboardInterrupt:
           GPIO.cleanup()
